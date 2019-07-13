@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkRedirect", "LinkRedirect.csproj", "{E98A6C6B-89D6-4D1E-95DD-A9F29774AEB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E98A6C6B-89D6-4D1E-95DD-A9F29774AEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98A6C6B-89D6-4D1E-95DD-A9F29774AEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98A6C6B-89D6-4D1E-95DD-A9F29774AEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98A6C6B-89D6-4D1E-95DD-A9F29774AEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89F6F210-1F3E-4FEC-A6EE-03A28FBBE7DE}
+	EndGlobalSection
+EndGlobal
