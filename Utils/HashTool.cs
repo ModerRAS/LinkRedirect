@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace HashTool {
+namespace LinkRedirect.Utils {
     /// <summary>
     /// C# 计算字符串/文件哈希值（MD5、SHA）
     /// 1）计算32位MD5码（大小写）：Hash_MD5_32

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace LinkRedirect.Interface {
-    interface IKVDB {
+    public interface IKVDB {
         void Put(string K, string V);
         void Put(byte[] K, byte[] V);
         string Get(string K);
