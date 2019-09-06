@@ -21,7 +21,7 @@ namespace LinkRedirect.Controllers {
         public IActionResult Get(string link) {
             var hash = HashHelper.Hash_SHA_256(link, false);
             db.Put(hash, link);
-            return Redirect("https://i.miaostay.com/"+hash+".jpg");
+            return Redirect("https://"+Env.RedirectURL+"/"+hash+".jpg");
             // return new string[] { hash, link };
         }
     }
