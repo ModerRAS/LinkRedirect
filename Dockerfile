@@ -14,5 +14,6 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-alpine3.9
 WORKDIR /app
 COPY --from=build-env /app/out .
 COPY --from=build-env /app/out/native/amd64 .
-RUN chmod -R +x /app
+EXPOSE 5000
+ENTRYPOINT ["chmod", "-R", "+x", /app]
 ENTRYPOINT ["dotnet", "LinkRedirect.dll"]
