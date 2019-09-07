@@ -1,4 +1,5 @@
 # LinkRedirect
+自动反代图片的小工具
 ## 使用Docker安装
 ```
 docker pull moderras/linkredirect
