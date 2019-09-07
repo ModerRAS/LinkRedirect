@@ -14,6 +14,11 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-alpine3.9
 WORKDIR /app
 COPY --from=build-env /app/out .
 COPY --from=build-env /app/out/native/amd64 .
+
+# RocksDB requires snappy
+RUN apk update && \
+    apk add --no-cache snappy libcap
+
 EXPOSE 5000
-ENTRYPOINT ["chmod", "-R", "+x", /app]
+
 ENTRYPOINT ["dotnet", "LinkRedirect.dll"]
