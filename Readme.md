@@ -1,4 +1,10 @@
 # LinkRedirect
+[![GitHub issues](https://img.shields.io/github/issues/moderras/linkredirect?style=for-the-badge)](https://github.com/moderras/linkredirect/issues)
+[![GitHub forks](https://img.shields.io/github/forks/moderras/linkredirect?style=for-the-badge)](https://github.com/moderras/linkredirect/network)
+[![GitHub stars](https://img.shields.io/github/stars/moderras/linkredirect?style=for-the-badge)](https://github.com/moderras/linkredirect/stargazers)
+[![GitHub license](https://img.shields.io/github/license/moderras/linkredirect?style=for-the-badge)](https://github.com/ModerRAS/LinkRedirect/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/moderras/linkredirect?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fmoderras%2Flinkredirect)
+
 自动反代图片的小工具
 ## 使用Docker安装
 ```
