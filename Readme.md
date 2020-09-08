@@ -4,6 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/moderras/linkredirect?style=for-the-badge)](https://github.com/moderras/linkredirect/stargazers)
 [![GitHub license](https://img.shields.io/github/license/moderras/linkredirect?style=for-the-badge)](https://github.com/ModerRAS/LinkRedirect/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/moderras/linkredirect?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fmoderras%2Flinkredirect)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FModerRAS%2FLinkRedirect.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FModerRAS%2FLinkRedirect?ref=badge_shield)
 
 自动反代图片的小工具
 ## 使用Docker安装
@@ -36,3 +37,7 @@ i.example.com {
 
 ## 使用
 访问`https://link.example.com/?=https://some.pictures.com/pic.jpg`后将自动跳转到`https://i.example.com/24075eb4d44dd685ca7a4fa48a30f4848568a129a956dc3f779f4447c1c0f8ea.jpg`.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FModerRAS%2FLinkRedirect.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FModerRAS%2FLinkRedirect?ref=badge_large)
